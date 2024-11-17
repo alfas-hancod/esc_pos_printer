@@ -10,7 +10,7 @@ dependencies:
   charset_converter: ^2.0.0
   flutter_esc_pos_utils:
     git:
-      url: https://github.com/Bilonik/flutter_esc_pos_utils
+      url: https://github.com/alfas-hancod/flutter_esc_pos_utils
       ref: main
   flutter:
     sdk: flutter
