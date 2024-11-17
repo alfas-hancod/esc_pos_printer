@@ -32,7 +32,7 @@ class NetworkPrinter {
   PaperSize get paperSize => _paperSize;
   CapabilityProfile get profile => _profile;
 
-  Future<PosPrintResult> connect(String host, {int port = 91000, Duration timeout = const Duration(seconds: 5)}) async {
+  Future<PosPrintResult> connect(String host, {int port = 9100, Duration timeout = const Duration(seconds: 5)}) async {
     _host = host;
     _port = port;
     try {
